@@ -1,1 +1,1 @@
-parallelDockerUpdatecli([imageName: 'rsyncd', rebuildImageOnPeriodicJob: false, buildDockerConfig : [targetplatforms: 'linux/amd64,linux/arm64']])
+buildDockerAndPublishImage('rsyncd', [targetplatforms: 'linux/amd64,linux/arm64'])
