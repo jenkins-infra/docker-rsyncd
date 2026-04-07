@@ -25,7 +25,7 @@ sources:
 
 targets:
   updateDockerfile:
-    name: "Update the value of ARG TINI_VERSION in the Dockerfile"
+    name: "Update debian version in the Dockerfile"
     kind: dockerfile
     spec:
       file: Dockerfile
