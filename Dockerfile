@@ -1,4 +1,4 @@
-FROM debian:stable-20260406-slim
+FROM debian:stable-20260421-slim
 
 SHELL ["/bin/bash", "-e", "-u", "-o", "pipefail", "-c"]
 
