@@ -48,8 +48,6 @@ targets:
     sourceid: getTiniVersion
     transformers:
       - trimprefix: 'v'
-      - addprefix: '"'
-      - addsuffix: '"'
     kind: yaml
     spec:
       file: cst.yml
